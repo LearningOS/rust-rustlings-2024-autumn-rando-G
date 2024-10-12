@@ -3,17 +3,20 @@
 // Execute `rustlings hint if1` or use the `hint` watch subcommand for a hint.
 
 
+
 pub fn bigger(a: i32, b: i32) -> i32 {
     // Complete this function to return the bigger number!
     // Do not use:
     // - another function call
     // - additional variables
+   let  mut c=0;
+   if a>b {
+     c=a;
+   } else if b>a {
+     c=b;
+   }
+   return c;
 
-    if a > b {
-        a
-    } else {
-        b
-    }
 }
 
 // Don't mind this for now :)
